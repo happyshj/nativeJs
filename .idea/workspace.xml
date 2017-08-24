@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3abd4f-5202-402e-ac72-e53854bca2cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task01/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task01/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task01/util.js" afterPath="$PROJECT_DIR$/task01/util.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task01/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -60,8 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/task01/index.js" />
         <option value="$PROJECT_DIR$/task01/index.html" />
-        <option value="$PROJECT_DIR$/task01/util.js" />
         <option value="$PROJECT_DIR$/task01/test.js" />
+        <option value="$PROJECT_DIR$/task01/util.js" />
       </list>
     </option>
   </component>
@@ -205,12 +203,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503562453539</updated>
       <workItem from="1503562455220" duration="1877000" />
-      <workItem from="1503564369071" duration="1007000" />
+      <workItem from="1503564369071" duration="1101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2884000" />
+    <option name="totallyTimeSpent" value="2978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="590" y="50" width="771" height="685" extended-state="0" />
@@ -285,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task01/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
