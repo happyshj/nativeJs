@@ -15,7 +15,7 @@ function uniqArray1(arr) {
 
 // 02
 function uniqArray2(arr) {
-   return arr.filter(function (item, index, array) {
+    return arr.filter(function (item, index, array) {
         return array.indexOf(item, index+1) === -1;
     })
 }
@@ -29,5 +29,6 @@ function uniqArray(arr) {
 let a = [1, 3, 5, 7, 5, 2];
 let b = uniqArray(a);
 console.log(b); // [1, 3, 5, 7]
+
 
 
