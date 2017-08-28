@@ -1,30 +1,28 @@
-let ulDiv = document.getElementsByTagName('li');
-console.log(ulDiv); // HTMLCollection对象HTMLCollection[3]0: li1: li2: lilength: 3__proto__: HTMLCollection
-console.log(ulDiv.length);
-console.log(ulDiv.item(0)); // <li>a</li>
+// 为element增加一个样式名为newClassName的新样式
+function addClass(element, newClassName) {
+    element.classList.add(newClassName);
+    return element;
+}
 
- console.log(ulDiv[0]); // NodeList,<li>a</li>
-// console.log(ulDiv[0].childNodes); // NodeList 类数组对象
-// console.log(ulDiv[0].children); // HTMLCollection
-// console.log(ulDiv[0].firstChild);
+// 移除element中的样式oldClassName
+function removeClass(element, oldClassName) {
+    element.classList.remove(oldClassName);
+    return element;
+}
 
-let aaa = document.querySelectorAll('li');
-console.log(aaa); // NodeList对象
-console.log(aaa.length);
-console.log(aaa.item(0)); // <li>a</li>
+// 判断siblingNode和element是否为同一个父元素下的同一级的元素，返回bool值
+function isSiblingNode(element, siblingNode) {
+    let parentElement = element.parentNode;
+    let childrenElement = parentElement.children;
+    [].prototype.some.call(childrenElement, function (item, index, array) {
+        return item === siblingNode;
+    });
+}
 
- console.log(aaa[0]); // NodeList,<li>a</li>
-// console.log(aaa[0].childNodes); // NodeList
-// console.log(aaa[0].children); // HTMLCollection
-// console.log(aaa[0].firstChild);
+// 实现一个简单的Query
+function $(selector) {
+    let temp = selector.charAt(0);
+    if (temp == '#'){
 
-console.log(ulDiv === aaa); // false
-console.log(ulDiv[0] === aaa[0]); // true
-
-let ulDivId = document.getElementById('div-ul');
-console.log(ulDivId);
-
-let aaaId = document.querySelector('#div-ul');
-console.log(aaaId);
-
-console.log(ulDivId === aaaId); // true
+    }
+}
