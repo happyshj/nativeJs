@@ -1,5 +1,5 @@
 function simpleTrim(str) {
-   // 9,32
+    // 9,32
     let left = 0;
     let right = str.length - 1;
     for(let i = 0; i < str.length; i++){
@@ -20,7 +20,6 @@ function simpleTrim(str) {
     return str.slice(left, right);
 }
 
-var str = '   hi!  ';
+let str = '   hi!  ';
 str = simpleTrim(str);
 console.log(str); // 'hi!'
-
