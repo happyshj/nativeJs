@@ -18,4 +18,4 @@ let obj = {
         c2: 4
     }
 };
-console.log(getObjectLength(obj)); // 3
+console.log(getObjectLength(obj));// 3
